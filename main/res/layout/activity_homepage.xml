@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_backimg"
+        android:layout_marginTop="-55dp"
+        android:src="@drawable/img"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTP Verification"
+        android:layout_marginTop="280sp"
+        android:layout_marginStart="-345sp"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter The OTP we have sent to"
+        android:layout_marginTop="310sp"
+        android:layout_marginStart="-250sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="99********04"
+        android:layout_marginTop="330sp"
+        android:layout_marginStart="-140sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="-190dp"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="45sp"
+            android:layout_height="45dp"
+            android:maxLength="1"
+            android:inputType="number"
+            android:layout_marginTop="400dp"
+            />
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:layout_marginTop="400dp"
+            android:maxLength="1"/>
+        <EditText
+            android:id="@+id/ed3"
+            android:layout_width="45sp"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:layout_marginTop="400dp" />
+        <EditText
+            android:id="@+id/ed4"
+            android:layout_width="45sp"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:layout_marginTop="400dp"
+            android:maxLength="1"/>
+        <EditText
+            android:id="@+id/ed5"
+            android:layout_width="45sp"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:layout_marginTop="400dp" />
+        <EditText
+            android:id="@+id/ed6"
+            android:layout_width="45sp"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:maxLength="1"
+            android:layout_marginTop="400dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:id="@+id/verify_btn"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="-300dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="#36B14A"
+        android:text="Verify"/>
+
+
+
+
+</LinearLayout>
